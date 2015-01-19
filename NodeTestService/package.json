@@ -1,0 +1,15 @@
+{
+  "name": "NodeTestService",
+  "version": "0.0.0",
+  "description": "NodeTestService",
+  "main": "server.js",
+  "author": {
+    "name": "bterkaly",
+    "email": ""
+  },
+  "dependencies": {
+    "documentdb": "^0.9.3",
+    "fs": "0.0.2",
+    "nconf": "^0.7.1"
+  }
+}
