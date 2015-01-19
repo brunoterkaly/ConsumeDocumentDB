@@ -1,6 +1,6 @@
 ﻿{
     "HOST"       : "https://temperatureevents.documents.azure.com:443/",
-    "AUTH_KEY"   : "BhVVLdlArhs2ufutcnNfWFWtIRFyfegnxwU/FrvAnrJF8L9e2ag46x83c6WT6rXYqezPGk1F5HKsUQgF3IJbvQ==",
+    "AUTH_KEY"   : "from the portal",
     "DATABASE"   : "TemperatureDB",
     "COLLECTION" : "CityTempCollection"
 }
