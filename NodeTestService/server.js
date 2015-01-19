@@ -107,7 +107,8 @@ var readOrCreateCollection = function (database, callback) {
 // grammar which is based on ANSI - SQL to demonstrate this familiar, yet 
 // powerful querying capability. 
 var listItems = function (collection, callback) {
-    client.queryDocuments(collection._self, 'SELECT r.name,r.category FROM root r WHERE r.completed=false').toArray(function (err, docs) {
+    //client.queryDocuments(collection._self, 'SELECT * FROM root r WHERE r.completed=false').toArray(function (err, docs) {
+    client.queryDocuments(collection._self, 'SELECT c.City,c.Temperatures FROM c where c.id="OAK RIDGE-TN"').toArray(function (err, docs) {
         console.log('called listItems');
         if (err) {
             throw (err);

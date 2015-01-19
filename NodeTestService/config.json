@@ -1,7 +1,7 @@
 ﻿{
-    "HOST"       : "https://jsondatastore.documents.azure.com:443/",
-    "AUTH_KEY"   : "secret goes here from the portal",
-    "DATABASE"   : "ToDoList",
-    "COLLECTION" : "Items"
+    "HOST"       : "https://temperatureevents.documents.azure.com:443/",
+    "AUTH_KEY"   : "E5t1YPiQWsSFmAWRpUrFFUqC8pN6ys8bWTLTJ2C6LALP/2pbxyFKGzPqGSUZQC9RVSaNW6Lafueq4d2QhW8gDg==",
+    "DATABASE"   : "TemperatureDB",
+    "COLLECTION" : "CityTempCollection"
 }
 
